@@ -1,44 +1,26 @@
-# Ex. No: 16C - Inserting Nodes in a B-Tree in Python
+# Experiment 10(d): Inserting Nodes in a B-Tree.
 
-## AIM:
-To write a Python function `def insert(self, k):` to insert the nodes in a **B-Tree**.
-
----
-
-## ALGORITHM:
-
-**Step 1**: Start the program.
-
-**Step 2**: Define the `BTreeNode` class to represent a node:
-- Contains a list of keys.
-- Contains a list of children.
-- Indicates whether it is a leaf.
-
-**Step 3**: Define the `BTree` class with:
-- Methods for inserting keys.
-- Handling node splitting.
-- Tree traversal and printing.
-
-**Step 4**: Implement `insert()`:
-- Insert a key into the tree.
-- Handle full root case and invoke node splitting if needed.
-
-**Step 5**: Implement `insert_non_full()` to insert a key into a node that is not full.
-
-**Step 6**: Implement `split_child()` to split a full child during insertion.
-
-**Step 7**: Define `print_tree()` to recursively print the structure of the B-Tree.
+## Aim
+To write a Python function `def insert(self, k)` to insert nodes in a B+ Tree.
 
 ---
 
-## PYTHON PROGRAM
+## Algorithm
+
+1. Define the `Node` class to represent a node in the B+ Tree with keys, values, and methods for adding keys, splitting the node, checking if it's full, and showing its contents.
+2. Define the `BPlusTree` class to represent the entire B+ Tree with methods to find, insert, retrieve, and merge nodes, and display the tree.
+3. In the `insert()` method, insert a key-value pair into the tree, and split nodes if necessary while merging them when they become full.
+4. In the `retrieve()` method, search for a key in the tree and return its associated values.
+5. Call `demo_node()` and `demo_bplustree()` to demonstrate the creation, insertion, and splitting of nodes in the tree and show the structure of the B+ Tree.
+
+---
+
+## Program
 
 ```
-ENTER YOUR CODE
+
 ```
 
 ## OUTPUT
-```
-```
 
 ## RESULT
