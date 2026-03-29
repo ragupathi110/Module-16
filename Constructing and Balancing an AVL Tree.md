@@ -1,38 +1,40 @@
-# Ex. No: 16B - Constructing and Balancing an AVL Tree in Python
+# Experiment 16B: Constructing and Balancing an AVL Tree
 
-## AIM:
-To write a Python program to construct an **AVL tree**, balance it, and print the nodes **before and after balancing** using the appropriate packages and built-in function.
-
----
-
-## ALGORITHM:
-
-**Step 1**: Start the program.
-
-**Step 2**: Define a method `getDictTree(tree)` to return the `dict_tree` or structure of the AVL tree.
-
-**Step 3**: Define a method `Construct_AVL(L)` to:
-- Create a binary tree from the list `L`.
-- Print the tree **before balancing**.
-- Sort and reinsert the nodes in a balanced manner (simulating AVL behavior).
-- Print the tree **after balancing**.
-
-**Step 4**: Create a list `L` of integers.
-
-**Step 5**: Call `Construct_AVL(L)` to build and balance the tree.
-
-**Step 6**: End the program.
+## Aim
+To write a Python program to construct an AVL tree and print the nodes of it using the appropriate packages and built-in functions.
 
 ---
 
-## PYTHON PROGRAM
-```
-ENTER YOUR CODE
-```
+## Algorithm
+
+1. Start the program.
+2. Define a function `getDictTree(tree)` to return the dictionary representation of an AVL tree.
+3. Define a function `Construct_AVL(L)` to:
+   - Create an AVL tree from the list `L`.
+   - Get and print the dictionary tree using `getDictTree(tree)`.
+4. Define a list `L` with integer values.
+5. Call `Construct_AVL(L)` to build the tree and print the result.
+6. End the program.
+
+---
+
+## Program
+from   TreeAVL.AVL import AVL#Write your code here
+
+
+def getDictTree(self):
+
+ return self.dict_tree
+ 
+
+def Construct_AVL(L):
+
+    tree=AVL(L)
+    
+    print(getDictTree(tree))
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/9789d2ff-56b7-46c7-9a4e-c7e3fc058a43)
 
 ## RESULT
-
+Thus the python program was initialised and executed successfully.
